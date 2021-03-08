@@ -69,8 +69,10 @@ Environment:
 1.	Current Time
 
 Access Control Matrix:
+
 *row: object
 *column: subject
+
     0	1	2	3	4	5	6	7	8	9
     
 0   V	N	N	V	N	V	N	N	N	N
