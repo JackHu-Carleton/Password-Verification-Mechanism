@@ -1,3 +1,6 @@
+# Writen by: Zijun Hu
+# Copyright © 2021 Zijun Hu. All rights reserved.
+
 The access control mechanism is designed based on the principle Attribute-Based Access Control 
 and achieved the access control using a combination of policy rule and access control matrix. 
 The program will determine the access granted or not based on three attributes, subject, object, 
