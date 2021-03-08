@@ -71,15 +71,24 @@ Environment:
 Access Control Matrix:
 *row: object
 *column: subject
-  0	1	2	3	4	5	6	7	8	9
-0 V	N	N	V	N	V	N	N	N	N
+    0	1	2	3	4	5	6	7	8	9
+    
+0   V	N	N	V	N	V	N	N	N	N
+
 1	V	N	N	N	V	M	N	N	N	N
+
 2	V	N	N	N	N	V	N	N	N	N
+
 3	N	V	R	N	N	N	N	N	N	N
+
 4	V	N	N	N	N	V	V	N	N	N
+
 5	V	N	N	N	N	M	V	V	N	N
+
 6	V	N	N	N	N	M	V	V	V	V
+
 7	V	N	N	N	N	C	N	N	N	N
+
 8	V	N	N	N	N	V	N	N	N	N
 
 V: View		M: Modify		R: Request Access		C: Check(Validate Modifications)
