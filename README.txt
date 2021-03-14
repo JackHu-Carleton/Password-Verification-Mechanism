@@ -35,15 +35,21 @@ Part II: Login the System
 
 The project is to implement access control in the bank's employee system,
 The access control follows the below rules,
-1. Clients can view their account balance, view their investment portfolio, and view the contact details of their Financial Advisor.
-2. Premium Clients can modify their investment portfolio and view the contact details of their Financial Planner and Investment Analyst.
-3. All SecVault Investments, Inc. employees (except for Technical Support) can view a client’s account balance and investment portfolio, but only Financial Advisors, Financial Planners, and Investment Analysts can modify a client’s investment portfolio.
-5. Tellers can only access the system during business hours from 9:00 AM to 5:00 PM.
-6. Technical Support can view a  client’s information and request client account access to troubleshoot the client’s technical issues.
-7. Financial Advisors and Financial Planners can view private consumer instruments.
-8. Financial Planners can view money market instruments.
-9. Investment Analysts can view money market instruments, derivatives trading, interest instruments, and private consumer instruments.
-10. Compliance Oﬃcers can validate modiﬁcations to investment portfolios.
+1. 	Clients can view their account balance, view their investment portfolio, 
+	and view the contact details of their Financial Advisor.
+2. 	Premium Clients can modify their investment portfolio and view the contact details 
+	of their Financial Planner and Investment Analyst.
+3. 	All SecVault Investments, Inc. employees (except for Technical Support) can view a 
+	client’s account balance and investment portfolio, but only Financial Advisors, 
+	Financial Planners, and Investment Analysts can modify a client’s investment portfolio.
+5. 	Tellers can only access the system during business hours from 9:00 AM to 5:00 PM.
+6. 	Technical Support can view a  client’s information and request client account access 
+	to troubleshoot the client’s technical issues.
+7. 	Financial Advisors and Financial Planners can view private consumer instruments.
+8. 	Financial Planners can view money market instruments.
+9. 	Investment Analysts can view money market instruments, derivatives trading, interest 
+	instruments, and private consumer instruments.
+10.	Compliance Oﬃcers can validate modiﬁcations to investment portfolios.
 
 Detail information about the access control mechanism:
 Objects:
