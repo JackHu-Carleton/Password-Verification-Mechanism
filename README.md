@@ -24,7 +24,7 @@ examples of the weak password are stored separately in a text file called weekPa
 The purpose of storage the weak password in a separate file is for convenience the future 
 maintenance
 
-Setup instruction:
+# Setup instruction:
 Part I: Enroll Users
 1. Enter the following command and press enter to run the python program for enroll users, 
     Python3 Proactive_Password_Checker_New.py
@@ -47,7 +47,7 @@ The access control follows below rules,
 9.    Investment   Analysts   can   view   money   market   instruments,   derivatives   trading,   interest   instruments, and  private  consumer  instruments.
 10.    Compliance  Oﬃcers  can  validate  modiﬁcations  to  investment  portfolios.
 
-Below are detail information about the access control mechanism:
+# Detail information about the access control mechanism:
 Objects:
 0.	Client’s Account Balance
 1.	Client’s Information
