@@ -1,7 +1,4 @@
-# Password Verification Mechanism & Access control mechanism
-
 Writen by: Zijun Hu
-
 Copyright © 2021 Zijun Hu. All rights reserved.
 
 The access control mechanism is designed based on the principle Attribute-Based Access Control 
@@ -24,7 +21,8 @@ examples of the weak password are stored separately in a text file called weekPa
 The purpose of storage the weak password in a separate file is for convenience the future 
 maintenance
 
-# Setup instruction:
+
+Setup instruction:
 Part I: Enroll Users
 1. Enter the following command and press enter to run the python program for enroll users, 
     Python3 Proactive_Password_Checker_New.py
@@ -35,19 +33,19 @@ Part II: Login the System
     Python3 Password_Verification_Mechanism_ACM.py
 2. Enter UserID and passwork to login in the system.
 
-The project is for implement access control in bank's employee system,
-The access control follows below rules,
-1.    Clients  can  view  their  account  balance,  view  their  investments  portfolio,  and  view  the  contact  details of  their  Financial  Advisor.
-2.    Premium  Clients  can  modify  their  investment  portfolio  and  view  the  contact  details  of  their  Financial Planner  and  Investment  Analyst.
-3. All SecVault Investments, Inc. employees (expect for Technical Support) can view a client’s account balance and investment portfolio, but only Financial Advisors, Financial Planners, and Investment Analysts can modify a client’s investment portfolio.
-5.    Tellers  can  only  access  the  system  during  business  hours  from  9:00AM  to  5:00PM.
-6.    Technical   Support   can   view   a   client’s   information   and   request   client   account   access   to   troubleshoot client’s  technical  issues.
-7.    Financial  Advisors  and  Financial  Planners  can  view  private  consumer  instruments.
-8.    Financial  Planners  can  view  money  market  instruments.
-9.    Investment   Analysts   can   view   money   market   instruments,   derivatives   trading,   interest   instruments, and  private  consumer  instruments.
-10.    Compliance  Oﬃcers  can  validate  modiﬁcations  to  investment  portfolios.
+The project is to implement access control in the bank's employee system,
+The access control follows the below rules,
+1. Clients can view their account balance, view their investment portfolio, and view the contact details of their Financial Advisor.
+2. Premium Clients can modify their investment portfolio and view the contact details of their Financial Planner and Investment Analyst.
+3. All SecVault Investments, Inc. employees (except for Technical Support) can view a client’s account balance and investment portfolio, but only Financial Advisors, Financial Planners, and Investment Analysts can modify a client’s investment portfolio.
+5. Tellers can only access the system during business hours from 9:00 AM to 5:00 PM.
+6. Technical Support can view a  client’s information and request client account access to troubleshoot the client’s technical issues.
+7. Financial Advisors and Financial Planners can view private consumer instruments.
+8. Financial Planners can view money market instruments.
+9. Investment Analysts can view money market instruments, derivatives trading, interest instruments, and private consumer instruments.
+10. Compliance Oﬃcers can validate modiﬁcations to investment portfolios.
 
-# Detail information about the access control mechanism:
+Detail information about the access control mechanism:
 Objects:
 0.	Client’s Account Balance
 1.	Client’s Information
@@ -78,9 +76,9 @@ Access Control Matrix:
 #row: object
 #column: subject
 
-   0	1	2	3	4	5	6	7	8	9
+	0	1	2	3	4	5	6	7	8	9
     
-0   V	N	N	V	N	V	N	N	N	N
+0  	V	N	N	V	N	V	N	N	N	N
 
 1	V	N	N	N	V	M	N	N	N	N
 
